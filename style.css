@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+section {
+    background-color: rgb(178, 185, 191);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+/* para editar os inputs precisa garantir que estejam na mesma classe*/
+
+#botao {
+    background-color: #38B6FF;
+    color:black;
+    border: 0px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.form {
+    margin: 8px;
+    border-radius: 10px;
+    border-style: none;
+    height: 20px;
+    width: 200px;
+}
